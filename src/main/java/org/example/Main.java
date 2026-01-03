@@ -13,11 +13,11 @@ public class Main {
         f3.nome = "Aline também";
 
         System.out.println(
-                f1.getNome()+"\n"+f1.calcularSalario()+"\n"
+                f1.getNome()+"\nR$ "+f1.calcularSalario()+"\n"
                         +"------------------\n"+
-                f2.getNome()+"\n"+f2.calcularSalario()+"\n"
+                f2.getNome()+"\nR$ "+f2.calcularSalario()+"\n"
                         +"------------------\n"+
-                f3.getNome()+"\n"+f3.calcularSalario()
+                f3.getNome()+"\nR$ "+f3.calcularSalario()
         );
     }
 }
